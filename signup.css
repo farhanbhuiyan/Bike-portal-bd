@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding-top: 900px;
+    background: url(R1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.signupbox{
+    width: 450px;
+	height: 700px;
+	background:;
+	color: #ffff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(20%,-50%);
+	box-sizing: border-box;
+	padding: 20px 80px;
+}
+
+h1{
+	margin: 0;
+	padding: ;
+	font-size: 40px;
+}
+
+.signupbox input[type="text"], input[type="text"],input[type="password"],input[type="text"],input[type="text"],input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.signupbox input[type="Submit"]
+{
+    height: 30px;
+    background: #fff00;
+    color: black;
+    font-size: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}

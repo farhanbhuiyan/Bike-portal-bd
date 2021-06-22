@@ -1,0 +1,6 @@
+1.
+SELECT u.Name,u.Phone_number, u.NID, u.Driving_Licence_no
+from user u
+JOIN
+vehicle v
+WHERE u.u_username = v.u_username_fk AND v.Serial_no = 9999
